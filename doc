@@ -1,4 +1,29 @@
 doc
+cse:
+  service:
+    registry:
+      address: https://cse.cn-north-1.myhwclouds.com:443
+      instance:
+        watch: false
+  config:
+    client:
+      serverUri: https://cse.cn-north-1.myhwclouds.com:443
+      refreshMode: 1
+      refresh_interval: 5000
+  monitor:
+    client:
+      serverUri: https://cse.cn-north-1.myhwclouds.com:443
+
+  credentials:
+    accessKey: D08SC5EJURLEQHZJLYLY
+    secretKey: MUDm6ZgehUtfityfA1CJDzoddUIVrplDIcjOQ42k
+    akskCustomCipher: default
+    
+          <activation>  
+            <activeByDefault>true</activeByDefault>  
+        </activation> 
+        
+        
 https://github.com/Unknwon/the-way-to-go_ZH_CN/blob/master/eBook/directory.md
 https://github.com/yeasy/blockchain_guide
 http://blog.csdn.net/u011537073/article/details/71188005
